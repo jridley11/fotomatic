@@ -249,9 +249,7 @@ header .mobile {
 }
 
 .feature h2 {
-
   padding-bottom: .5rem;
-  line-height: 1.2;
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
@@ -305,6 +303,7 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: white;
+  opacity: 100%;
 }
 
 #filters-section .content h3 {
@@ -315,6 +314,7 @@ header .mobile {
 }
 
 #filters-section .images-container {
+  display: flex;
   max-width: 100%;
   padding: 0 1%;
 }
